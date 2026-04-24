@@ -43,7 +43,11 @@ export const updateProduct = async (req, res) => {
 	const sanitizedProduct = {};
 	for (const key of allowedFields) {
 		if (product[key] !== undefined) {
-			sanitizedProduct[key] = product[key];
+			// Ensure value is a primitive to prevent NoSQL injection
+			const value = product[key];
+			if (value !== null && typeof value !== "object") {
+				sanitizedProduct[key] = value;
+			}
 		}
 	}
 
