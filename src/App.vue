@@ -80,8 +80,8 @@
             <p>
               My Vue.js UIUX portfolio demo by software engineer, Christopher
               Peterson.
-              <br /><b>Email:</b> cpeterson.software.engineering@gmail.com
-              <br /><b>Phone:</b> (517) 719-0029 <br /><a href="">(Todo) Here's my MERN Demo!</a><br /><a
+              <br /><b>Email:</b> codingcowboy2026@gmail.com
+              <br /><b>Phone:</b> (517) 719-0029 <br /><a href="">(Todo) Here's my MEVN Demo.</a><br /><a
                 class="icon"
                 href="https://github.com/RocketDelivery2"
                 ><i class="fab fa-github"></i
