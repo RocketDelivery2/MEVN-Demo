@@ -1,72 +1,104 @@
-### Tech Stack:
-```shell
-Vue.js, Bulma
-Error Handling
-Deployment
+<h1 align="center">MEVN Demo</h1>
+
+<p align="center">
+  A Vue + Bulma demo project showcasing a clean UI, client-side architecture, and a practical build/development workflow.
+</p>
+
+---
+
+## Tech Stack
+
+- **Frontend:** Vue.js
+- **UI:** Bulma
+- **HTTP:** Axios
+- **Tooling:** Webpack (vue-templates/webpack style), Babel
+- **Styling:** Sass
+
+---
+
+## Prerequisites
+
+- **Node.js** (LTS recommended)
+- **npm**
+
+---
+
+## Install
+
+```bash
+npm install
 ```
 
-## Build Setup
-``` bash
-# install dependencies
-npm install
+---
 
-# serve with hot reload at localhost:8080
+## Run Locally (Development)
+
+Starts the dev server with hot reload (commonly on `http://localhost:8080`):
+
+```bash
 npm run dev
+```
 
-# build for production with minification
+---
+
+## Build
+
+Production build:
+
+```bash
 npm run build
+```
 
-# build for production and view the bundle analyzer report
+(Optional) build + bundle analyzer report:
+
+```bash
 npm run build --report
 ```
 
-Created Repo:
-cd to root
-git init
+---
 
+## Notes / Commands Used in Setup
 
-### Commands That Have Been Run:
-```shell
+These are some packages/scripts that have been used in the project setup (helpful if you’re troubleshooting missing dependencies):
+
+```bash
 npm install --save-dev typescript ts-loader
-npm install --save-dev webpack-dev-server 
+npm install --save-dev webpack-dev-server
 npm install bulma
 npm install axios@0.25.0 --save
 npm install prettier -D --save-exact
-npm install --save-dev @babel/core 
+npm install --save-dev @babel/core
 npm run build-bulma
-npm install sass sass-loader style-loader --save-dev 
+npm install sass sass-loader style-loader --save-dev
 ```
 
-### Run this app locally
+---
 
-```shell
-npm run build
-```
+## Docs
 
-### Start the app
+For more details on the underlying template/tooling:
 
-```shell
-npm run dev
-```
+- Guide: http://vuejs-templates.github.io/webpack/
+- vue-loader docs: http://vuejs.github.io/vue-loader/
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+---
 
 ## About
 
-My name is **Christopher Peterson**. I'm a full-stack software engineer focused on delivering polished UI/UX experiences along with reliable backend systems.
+My name is **Christopher Peterson**. I’m a full-stack software engineer focused on delivering polished UI/UX experiences along with reliable backend systems.
 
 - **MERN demo:** (Todo)
-- **React demo:** (Todo) 
-- **GitHub:** https://github.com/RocketDelivery2/  
+- **React demo:** (Todo)
+- **GitHub:** https://github.com/RocketDelivery2/
 - **LinkedIn:** https://www.linkedin.com/in/christopher-peterson-2ba8243b6/
-- **Email:** codingcowboy2026@gmail.com  
+- **Email:** codingcowboy2026@gmail.com
 - **Phone:** (517) 719-0029
 
+---
 
-### References:
-```shell
-https://www.udemy.com/
-https://bulma.io/
-https://www.lipsum.com/
-https://unsplash.com/photos/cloudy-sky-at-daytime-v9bnfMCyKbg
-```
+## References / Credits
+
+- https://www.udemy.com/
+- https://bulma.io/
+- https://www.lipsum.com/
+- https://unsplash.com/photos/cloudy-sky-at-daytime-v9bnfMCyKbg
